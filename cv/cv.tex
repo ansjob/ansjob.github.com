@@ -7,22 +7,25 @@
 \usepackage{numprint}
 \usepackage{url}
 \usepackage{cite}
+\usepackage[UKenglish]{isodate}
 \pagestyle{fancy}
 
 \fancyhead[L]{\textbf{Curriculum Vitae} \\ Andreas Sjöberg}
-\fancyhead[R]{\url{ansjob@kth.se} \\ tel: +46 766 32 23 73}
+\fancyhead[R]{\url{ansjob@kth.se}, \url{andreas@tjugohundratalet.se} \\ tel: +46 766 32 23 73}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot{}
 
-\begin{document}
+\isodate
 
+
+\begin{document}
 
 \section*{Education}
 
 \begin{tabular}{rl}
-\textbf{2009 - present}	& Computer Science programme at KTH\\
-\textbf{2005-2007, 2008-2009}		& IT-Gymnasiet Uppsala, Custom program with IT and Science \\
-\textbf{2007-2008} 			& High School Diploma from Hazleton Area High School, PA\\
+\textbf{2009 - present}			& Computer Science programme at KTH\\
+\textbf{2005-2007, 2008-2009}	& IT-Gymnasiet Uppsala, Custom program with IT and Science \\
+\textbf{2007-2008} 				& High School Diploma from Hazleton Area High School, PA\\
 
 \end{tabular}
 
@@ -37,6 +40,13 @@
 
 \end{tabular}
 
+\section*{Publications}
+
+\begin{tabular}{rl}
+\textbf{Bachelor Thesis} 	& Larsson, Sjöberg \emph{Optimal Yatzy strategy} 2012-05-21 \\ 
+												&\url{http://ansjob.github.com/kexjobb.pdf} \\
+\end{tabular}
+
 \section*{Skills}
 
 \begin{tabular}{r p{0.6\textwidth}}
@@ -44,12 +54,12 @@
 \textbf{Languages} & Swedish (native), English\\
 \textbf{Programming Languages} & 
 	\begin{itemize}\itemsep0cm
-		\item{\textbf{Good} in Java, Web Work, jQuery, Android SDK, HTML/CSS, Javascript, C, PHP, SQL}
-		\item{\textbf{Fair} in Haskell, Prolog, Matlab, C++}
+		\item{\textbf{Good} in C/C++, Java, Javascript, jQuery, Android SDK, HTML/CSS, SQL}
+		\item{\textbf{Fair} in Haskell, Prolog, Matlab, PHP}
 	\end{itemize} \\
 \textbf{Computing environments} & 
 	Mostly familiar with Linux systems, and the Ubuntu family in particular (Server and Client), 
-	also familiar with Microsoft Windows on the client side. \\
+	also familiar with Microsoft Windows on both client and server side. \\
 \end{tabular}
 
 \section*{Awards and certificates}
@@ -62,14 +72,7 @@
 \section*{Version information}
 
 This CV was published on \today.
-The latest copy of this CV can be found at \\
-\url{https://ansjob.github.com/cv/cv.pdf}.
-
-The signature for the latest version can be found at\\
-\url{https://ansjob.github.com/cv/cv.pdf.asc},
-
-and is signed using my public key which is available at\\
-\url{https://ansjob.github.com/public_key.asc}
+The latest copy of this CV can be found at \\ \url{http://ansjob.github.com}.
 
 
 \end{document}
