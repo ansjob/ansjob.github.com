@@ -18,6 +18,12 @@ body {
 This page may get more content later, but do not put any large bets on it.
 </p>
 
+<h2>Publications</h2>
+
+<ul>
+<li><a href = "kexjobb.pdf">Optimal Yatzy Strategy</a> by Larsson and Sjöberg, 2012-05-21</li>
+</ul>
+
 <h2>Public key</h2>
 Here is my <a href = "public_key.asc">PGP public key</a>. The fingerprint for it is 4A40 F630 98E2 F79B 4787 BACC E614 B25C 2A40 9C87.
 
@@ -32,8 +38,12 @@ The CV is signed using my public key and can be verified using any PGP implement
 For this you need to download a <a href = "cv/cv.pdf.asc">digital signature</a> for the CV.
 </p>
 
-<p>On Ubuntu Linux this can be done by issuing the following command</p>
+<p>On Ubuntu Linux this can be done by issuing the following commands</p>
 <pre>
+$ wget http://ansjob.github.com/public_key.asc
+$ wget http://ansjob.github.com/cv/cv.pdf
+$ wget http://ansjob.github.com/cv/cv.pdf.asc
+$ gpg --import public_key.asc #To import my public key
 $ gpg --verify cv.pdf.asc cv.pdf
 </pre>
 </body>
